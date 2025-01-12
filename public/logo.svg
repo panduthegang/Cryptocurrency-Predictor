@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Glowing background circle -->
+  <circle cx="256" cy="256" r="248" fill="url(#glow)" filter="url(#blur)"/>
+  
+  <!-- Crypto symbol -->
+  <path d="M256 96C176.5 96 112 160.5 112 240C112 319.5 176.5 384 256 384C335.5 384 400 319.5 400 240C400 160.5 335.5 96 256 96ZM256 352C194.1 352 144 301.9 144 240C144 178.1 194.1 128 256 128C317.9 128 368 178.1 368 240C368 301.9 317.9 352 256 352Z" fill="white"/>
+  
+  <!-- Inner rings -->
+  <circle cx="256" cy="240" r="64" stroke="white" stroke-width="24" fill="none"/>
+  <circle cx="256" cy="240" r="32" fill="#3B82F6"/>
+  
+  <!-- Orbital lines -->
+  <path d="M256 64C150.1 64 64 150.1 64 256C64 361.9 150.1 448 256 448C361.9 448 448 361.9 448 256C448 150.1 361.9 64 256 64ZM256 416C167.6 416 96 344.4 96 256C96 167.6 167.6 96 256 96C344.4 96 416 167.6 416 256C416 344.4 344.4 416 256 416Z" fill="url(#orbital)"/>
+  
+  <!-- Definitions -->
+  <defs>
+    <!-- Glow gradient -->
+    <radialGradient id="glow" cx="256" cy="256" r="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </radialGradient>
+    
+    <!-- Orbital gradient -->
+    <linearGradient id="orbital" x1="64" y1="256" x2="448" y2="256">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    
+    <!-- Glow blur effect -->
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="20"/>
+    </filter>
+  </defs>
+</svg>
