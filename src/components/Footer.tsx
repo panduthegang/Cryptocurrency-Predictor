@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
             Made with <Heart size={16} className="text-red-500 fill-red-500 animate-pulse" /> by
           </p>
           <p className="text-gray-300 font-medium">
-            Rishi • Armaan • Sushil
+            Harsh Rathod
           </p>
         </div>
       </div>
