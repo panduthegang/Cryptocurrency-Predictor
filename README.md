@@ -42,7 +42,7 @@ Crypto Predictor is an interactive web application that provides real-time crypt
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/crypto-predictor.git
+git clone https://github.com/pandutehgang/Cryptocurrency-Predictor.git
 ```
 
 2. Install dependencies
